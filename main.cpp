@@ -11,7 +11,12 @@ int main()
          << "A - B = " << a - b << endl
          << "A * B = " << a * b << endl
          << "A / B = " << a / b << endl;
+<<<<<<< HEAD
          if (a>b) cout << "MAX = " << a;
          else cout << "MAX = " << b;
+=======
+         if (a>b) cout << "MIN = " << b;
+         else cout << "MIN = " << a;
+>>>>>>> code: боб с минимумом
     return 0;
 }
